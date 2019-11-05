@@ -123,3 +123,202 @@
 .index-sceneProgress {
     width: 2.68rem;
 }
+
+/* 单词页 */
+
+.scene-top {
+    display: flex;
+    justify-content: space-between;
+    width: 6.4rem;
+    margin: 0 auto;
+}
+
+.scene-left {
+    width: 4.7rem;
+    padding-left: .24rem;
+}
+
+.scene-name {
+    line-height: .74rem;
+    font-size: .52rem;
+    color: #000;
+}
+
+.scene-count {
+    margin-top: .04rem;
+    line-height: .4rem;
+    font-size: .28rem;
+    color: #999;
+}
+
+.scene-right {
+    display: flex;
+    margin-top: .66rem;
+}
+
+.scene-circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.scene-bg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene-canvas {
+    width: 30px;
+    height: 30px;
+}
+
+.circle-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+}
+
+.circle-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.circle-time {
+    margin-left: .18rem;
+    height: 30px;
+    line-height: 30px;
+    font-size: .28rem;
+    font-weight: bold;
+}
+
+
+.scene-box {
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    width: 7.5rem;
+    height: 6.4rem;
+}
+
+.scene-con {
+    position: relative;
+    width: 6.4rem;
+    height: 6.4rem;
+    margin: 0 auto;
+}
+
+.scene-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: .24rem;
+    background: linear-gradient(to bottom right, #25c1fd, #804efe);
+}
+
+.scene-cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: .24rem;
+}
+
+.scene-cont {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: .24rem;
+    background: linear-gradient(to bottom right, #25c1fd, #804efe);
+    overflow: hidden;
+}
+
+.scene-yes {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3.5rem;
+    height: .48rem;
+    line-height: .48rem;
+    margin-top: .6rem;
+    font-size: .34rem;
+    text-align: center;
+    color: #fff;
+}
+
+.scene-no {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.5rem;
+    height: .48rem;
+    line-height: .48rem;
+    margin-top: .6rem;
+    font-size: .34rem;
+    text-align: center;
+    color: #fff;
+}
+
+.scene-word {
+    height: .72rem;
+    line-height: .72rem;
+    margin-top: 2.72rem;
+    color: #fff;
+    font-size: .64rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scene-en {
+    height: .44rem;
+    line-height: .44rem;
+    margin-top: .34rem;
+    color: #fff;
+    font-size: .4rem;
+    text-align: center;
+    opacity: .6;
+}
+
+.scene-nums {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 50%;
+    width: 7.5rem;
+    margin-left: -3.75rem;
+}
+
+.scene-num {
+    width: .4rem;
+    height: .4rem;
+    margin: 0 .1rem;
+    background: #f2f2f2;
+}
+
+.scene-num.active {
+    background: #000;
+}
+
+.scene-volume {
+    position: absolute;
+    bottom: .52rem;
+    right: .8rem;
+    width: .52rem;
+    height: .52rem;
+}
