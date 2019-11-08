@@ -1,0 +1,246 @@
+.index-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 124px 80px 108px 80px;
+}
+
+.index-name {
+  font-size: 56px;
+  color: #363636;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 8px;
+  line-height: 68px;
+  letter-spacing: 4px;
+}
+
+.index-oval {
+  width: 112px;
+  height: 112px;
+}
+
+
+.sort-container {
+  margin: 0 16px 48px 16px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.sort-con {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 24px;
+  color: #776761;
+}
+
+.sort-cont {
+  padding-top: 10px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 32px;
+  opacity: .2;
+}
+
+.sort-con.active .sort-cont {
+  opacity: 1;
+}
+
+.sort-con.active .sort-badge {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background: #d0021b;
+  border-radius: 100%;
+}
+
+.index-con {
+  width: 624px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.index-scene {
+  position: relative;
+  height: 272px;
+  margin-bottom: 40px;
+}
+
+.index-sceneCon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 272px;
+  z-index: 2;
+  padding: 0 48px;
+  border: 4px solid #776761;
+  border-radius: 24px;
+}
+
+.index-sceneNames {
+  display: flex;
+  align-items: center;
+  margin-top: 112px;
+  line-height: 56px;
+  color: #776761;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.index-sceneName {
+  max-width: 480px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.index-sceneTotal {
+  width: 44px;
+  height: 44px;
+  margin-left: 30px;
+}
+
+.index-sceneCount {
+  margin-top: 6px;
+  line-height: 40px;
+  color: #776761;
+  font-size: 28px;
+  opacity: .6;
+}
+
+.index-sceneProgressBox{
+  width: 268px;
+  height: 10px;
+  margin-top: 12px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.index-sceneProgress {
+  height: 10px;
+  background: #f7bf67;
+  border-radius: 6px;
+}
+
+/*详情页*/
+
+.scene-dots{
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  height: 16px;
+}
+
+.scene-dot{
+  width: 16px;
+  height: 16px;
+  margin: 0 15px;
+  background: #776761;
+  border-radius: 100%;
+}
+
+.scene-squares{
+  display: flex;
+  justify-content: center;
+  margin: 130px auto;
+  height: 16px;
+}
+
+.scene-square{
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background: #776761;
+  opacity: .2;
+}
+
+.scene-square.active{
+  opacity: 1;
+}
+
+.scene-box {
+  height: 640px;
+  color: #776761;
+}
+
+.scene-con {
+  position: relative;
+  width: 640px;
+  height: 640px;
+  margin: 0 auto;
+}
+
+.scene-back {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 640px;
+  height: 640px;
+  border-radius: 24px;
+  border: 4px solid #776761;
+}
+
+.scene-cont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 640px;
+  height: 640px;
+  border-radius: 24px;
+  border: 4px solid #776761;
+  overflow: hidden;
+}
+
+.scene-yes {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 350px;
+  height: 48px;
+  line-height: 48px;
+  margin-top: 60px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.scene-no {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 48px;
+  line-height: 48px;
+  margin-top: 60px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.scene-word {
+  height: 72px;
+  line-height: 72px;
+  margin-top: 272px;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.scene-en {
+  height: 44px;
+  line-height: 44px;
+  margin-top: 34px;
+  font-size: 40px;
+  text-align: center;
+  opacity: .6;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  color: #776761;
+  background: #f8f4eb;
+}
