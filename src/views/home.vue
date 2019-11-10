@@ -89,6 +89,40 @@
 
 <script>
   export default {
-    name: 'home'
+    name: 'home',
+    directives: {
+      drag: {
+        // 指令的定义
+        inserted (el) {
+          el.onmousedown = function (e) {
+            e.stopPropagation()
+            let disx = e.pageX - el.offsetLeft
+            // let disy = e.pageY - el.offsetTop
+            document.onmousemove = function (e) {
+              e.preventDefault()
+              el.style.left = e.pageX - disx + 'px'
+            }
+            document.onmouseup = function () {
+              const left = parseInt(el.style.left)
+              console.log(left)
+              if (left < -200) {
+                this.direct = 1
+              }
+              if (left > -200 && left < 0) {
+                this.direct = 2
+              }
+              if (left > 0 && left < 200) {
+                this.direct = 3
+              }
+              if (left > 200) {
+                this.direct = 4
+              }
+              document.onmousemove = document.onmouseup = null
+              el.style.left = 0
+            }
+          }
+        }
+      }
+    }
   }
 </script>
