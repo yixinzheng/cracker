@@ -5,12 +5,6 @@ import App from './App'
 import router from './router'
 import 'lib-flexible'
 import '@/assets/css/style.css'
-
-Vue.directive('drag', {
-  inserted: function (el, binding) {
-
-  }
-})
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
